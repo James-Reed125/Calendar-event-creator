@@ -1,0 +1,27 @@
+{
+  "name": "event-to-calendar",
+  "version": "1.0.0",
+  "description": "A program that takes pasted text from a user, runs it through AI and creates a new event on google calendar.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/James-Reed125/Calendar-event-creator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/James-Reed125/Calendar-event-creator/issues"
+  },
+  "homepage": "https://github.com/James-Reed125/Calendar-event-creator#readme",
+  "dependencies": {
+    "express": "^4.22.3"
+  }
+}
